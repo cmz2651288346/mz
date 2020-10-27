@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ali-oss": "^6.9.1",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jquery": "^3.4.1",
+    "marked": "^1.1.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.4",
+    "nodemailer": "^6.4.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "qiniu": "^7.3.1"
+  },
+  "dependencies": {
+    "js-cookie": "^2.2.1"
+  }
+}
